@@ -15,7 +15,7 @@ tags:
 ## java小记
 1. spring提供了两种方式来生成代理对象：JDK原生的JDKProxy和CgLib，具体使用哪种方式是有AOPProxyFactory根据AdvisedSupport对象的配置来决定。默认的策略是如果目标类是接口就用jdkProxy，否则就用CGLIb来生成代理。
 2. JDK原生动态InvocationHandle是JDK动态代理的核心。
-2. CunrrentHashMap的size是如何计算统计的：
+3. CunrrentHashMap的size是如何计算统计的：
   计算的时候是先统计每个分片（默认16个分片）的总数据量。如果在统计过程中，容器的count发生变化就用加锁的方式获取大小。默认重试两次不加锁的获取，两次获取都失败，则加锁获得。监控count的变化与否，是有个成员变量modCount对比，每次分片上的add或者remove时候，该值都会相应的增加或者减少。
 4. ArryList的初始化大小为10（即调用不传入参数的构造方法），所以如果在使用中知道容量最好能直接初始化，这样就避免扩容的问题。
   扩容规则；发现空间不够用，就去扩容。
