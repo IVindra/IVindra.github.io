@@ -11,6 +11,8 @@ tags:
     - java
     - 面试
 ---
+
+
 ## java小记
 1. spring提供了两种方式来生成代理对象：JDK原生的JDKProxy和CgLib，具体使用哪种方式是有AOPProxyFactory根据AdvisedSupport对象的配置来决定。默认的策略是如果目标类是接口就用jdkProxy，否则就用CGLIb来生成代理。
 2. JDK原生动态InvocationHandle是JDK动态代理的核心。
