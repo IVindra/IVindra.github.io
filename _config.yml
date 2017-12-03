@@ -89,5 +89,12 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
+# Friends
+friends: [
+    {
+        title: "mty",
+        href: "http://mtyue.top"
+    }
+]
 
 
