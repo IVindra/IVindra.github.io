@@ -1,10 +1,10 @@
 # Site settings
-title: Blog
+title: MTY Blog
 SEOTitle: 马跃的博客
 header-img: img/post-bg-desk.jpg
 email: mayu593@126.com
 description: "Every failure is leading towards success."
-keyword: "Blog, 马跃的博客, matengyue, 马腾跃"
+keyword: "MTY Blog, 马跃的博客, matengyue, 马腾跃"
 url: "http://mtyue.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/mtyue/mtyue.github.io.git" # you code repository
@@ -69,11 +69,11 @@ disqus_username: mtyue
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: auto
 
 
 
