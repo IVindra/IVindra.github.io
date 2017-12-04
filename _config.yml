@@ -52,18 +52,9 @@ gems: [jekyll-paginate]
 #kramdown:
 #  input: GFM                            # use Github Flavored Markdown !important
 
-markdown:       kramdown
-highlighter:    rouge
-kramdown:
-  input: GFM
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-  use_coderay: true
-  syntax_highlighter: rouge
-  coderay:
-    coderay_line_numbers:  nil
+markdown: redcarpet
+redcarpet:
+    extensions: [ "fenced_code_blocks", "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
 
 
 # 评论系统
