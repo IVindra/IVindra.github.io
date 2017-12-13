@@ -95,7 +95,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "mty",
+        title: "xiaojiujiu",
         href: "http://www.xiaojiujiu.ink"
     }
 ]
